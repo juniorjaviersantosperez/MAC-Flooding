@@ -192,17 +192,33 @@ La topología fue diseñada e implementada en **GNS3** con los siguientes compon
 ## 📸 Capturas de Pantalla
 
 Las capturas de pantalla se encuentran almacenadas en la carpeta **`/images/`** del repositorio.
+## Topología
 
-| # | Archivo | Descripción |
-|---|---------|-------------|
-| 1 | `imagen_01_topologia.png` | Topología del laboratorio en GNS3 con nombre y matrícula del estudiante |
-| 2 | `imagen_02_tabla_mac_antes.png` | Tabla MAC del switch antes del ataque — 3 a 4 entradas legítimas dinámicas |
-| 3 | `imagen_03_ataque_en_curso.png` | Script en ejecución — 32,000 tramas enviadas a 3,969 pkt/s con warnings de Scapy |
-| 4 | `imagen_04_tcpdump_tramas_falsas.png` | Captura tcpdump mostrando tramas broadcast con MACs de origen falsas y aleatorias |
-| 5 | `imagen_05_ataque_finalizado.png` | Resumen del ataque — 145,000 paquetes en 34.50s a 4,203 pkt/s promedio |
-| 6 | `imagen_06_tabla_mac_saturada.png` | Tabla CAM del switch saturada con miles de entradas MAC falsas dinámicas |
-| 7 | `imagen_07_contramedida_port_security.png` | Contramedida aplicada: Port Security con `maximum 2`, `violation shutdown` y `mac-address sticky` |
+![Topología](Imagenes/imagen_01_topologia.png)
 
+## Tabla MAC Antes del Ataque
+
+![Tabla MAC Antes](Imagenes/imagen_02_tabla_mac_antes.png)
+
+## Ataque en Curso
+
+![Ataque en Curso](Imagenes/imagen_03_ataque_en_curso.png)
+
+## Captura de Tramas Falsas
+
+![Tcpdump Tramas Falsas](Imagenes/imagen_04_tcpdump_tramas_falsas.png)
+
+## Ataque Finalizado
+
+![Ataque Finalizado](Imagenes/imagen_05_ataque_finalizado.png)
+
+## Tabla MAC Saturada
+
+![Tabla MAC Saturada](Imagenes/imagen_06_tabla_mac_saturada.png)
+
+## Contramedida: Port Security
+
+![Port Security](Imagenes/imagen_07_contramedida_port_security.png)
 ---
 
 ## 🛡️ Medidas de Mitigación / Contramedidas
